@@ -1,4 +1,4 @@
-interface HtmlElement {
+interface AbstractHtmlElement {
   element: string;
 
   // global html attributes
@@ -10,4 +10,4 @@ interface HtmlElement {
   children?: Array<any>;
 };
 
-export default HtmlElement;
+export default AbstractHtmlElement;

@@ -1,4 +1,4 @@
-import HtmlElement from '../interfaces/html-element';
+import HtmlElement from '../types/html-element';
 
 const getView = (tpl: HtmlElement) => {
   const view = document.createElement(tpl.element);

@@ -1,9 +1,9 @@
 import constants from '../constants/constants';
-import HtmlElement from '../../lib/interfaces/html-element';
+import HtmlDiv from '../../lib/interfaces/html-div';
 
 const click = () => console.log('lol');
 
-const HomeView = (): HtmlElement => {
+const HomeView = (): HtmlDiv => {
   return {
     element: 'div',
     children: [

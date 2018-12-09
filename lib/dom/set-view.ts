@@ -1,4 +1,4 @@
-import HtmlElement from '../interfaces/html-element';
+import HtmlElement from '../types/html-element';
 import getView from './get-view';
 
 const setView = (appRootId: string, tpl: HtmlElement): void => {
