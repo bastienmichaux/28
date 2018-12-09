@@ -1,0 +1,26 @@
+{
+  "name": "28",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastienmichaux/28.git"
+  },
+  "author": "Bastien Michaux <bastienmichauxbellomo@gmail.com> (http://twitter.com/ngArchangel)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastienmichaux/28/issues"
+  },
+  "homepage": "https://github.com/bastienmichaux/28#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "yarn": "^1.12.3"
+  }
+}
